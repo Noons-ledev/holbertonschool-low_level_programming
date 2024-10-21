@@ -5,7 +5,7 @@
 /**
 *main- Entry of program
 *Description: Displays if the number is positive or negative
-*Return : Always return 0 (Success)
+*Return: Always return 0 (Success)
 */
 int main(void)
 {
