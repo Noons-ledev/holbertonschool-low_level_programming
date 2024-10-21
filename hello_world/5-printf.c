@@ -1,7 +1,9 @@
 #include <stdio.h>
 /**
-*main -Entry point of the programm
-*description: Print the sentance I want 
+*main -Entry point of the program
+*
+*Description: Print the sentence I want
+* 
 *Return: Always return 0 (Success)
 */
 int main(void)
