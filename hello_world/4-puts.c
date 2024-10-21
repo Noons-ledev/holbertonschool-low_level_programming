@@ -2,7 +2,7 @@
 /**
 *main - entry point
 *Description: prints the sentence I want
-*return: 0 for success
+*Return: Always return 0(Success)
 */
 int main(void)
 {
