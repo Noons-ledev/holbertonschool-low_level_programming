@@ -1,5 +1,6 @@
 #include <stdio.h>
-/**main - entry point
+/**
+*main - entry point
 *Description: prints the sentence I want
 *return: 0 for success
 */
