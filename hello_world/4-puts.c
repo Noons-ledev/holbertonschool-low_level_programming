@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*main- entry point*/
-/*puts - prints the sentence I want*/ 
+/*puts - prints the sentence I want*/
 /*return 0 for success*/
 int main(void)
 {
