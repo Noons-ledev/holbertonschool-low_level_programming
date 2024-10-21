@@ -12,7 +12,7 @@ for ( HexDigit = '0'; HexDigit <= '9'; HexDigit++)
 {
 putchar(HexDigit);
 }
-for ( HexDigit = 'a'; HexDigit <= 'z'; HexDigit++)
+for ( HexDigit = 'a'; HexDigit <= 'f'; HexDigit++)
 {
 putchar(HexDigit);
 }
