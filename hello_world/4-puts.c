@@ -3,5 +3,5 @@ int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
 return (0);
-// Function main, puts the sentence and return 0 for success
+/* Function main, puts the sentence and return 0 for success */
 }
