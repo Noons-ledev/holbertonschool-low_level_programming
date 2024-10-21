@@ -8,11 +8,11 @@
 int main(void)
 {
 char HexDigit;
-for ( HexDigit = '0'; HexDigit <= '9'; HexDigit++)
+for (HexDigit = '0'; HexDigit <= '9'; HexDigit++)
 {
 putchar(HexDigit);
 }
-for ( HexDigit = 'a'; HexDigit <= 'f'; HexDigit++)
+for (HexDigit = 'a'; HexDigit <= 'f'; HexDigit++)
 {
 putchar(HexDigit);
 }
