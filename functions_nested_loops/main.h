@@ -4,4 +4,5 @@
 int _putchar(char c);
 int _isalpha(int b);
 int print_sign(int n);
+int _abs(int n);
 #endif
