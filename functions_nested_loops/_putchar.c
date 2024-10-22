@@ -9,9 +9,4 @@ int _putchar(char c)
 {
 return (write(1, &c, 1));
 }
-/**
- *main-entry point of program
- *Description : Writes all _putchar characters
- *Return: Always return 0 (Success)
- */
 
