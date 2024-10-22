@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - Writes alphabet lowercase 
+ * print_alphabet - Writes alphabet lowercase
  * Description - Use of putchar function in the for statement
  * Return : Always 0
  */
