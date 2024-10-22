@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  *print_last_digit- Print last digit of a given number
- *@n: Number to compare
- *@a: Last digit to return
+ *@n : Number to compare
+ *@a : Last digit to return
  *Description:Use of an IF statement
  *Return: Return the last digit
  */
