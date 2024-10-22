@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _putchar - writes the character c to stdout
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * print_alphabet - Writes alphabet lowercase 
+ * Description - Use of putchar function in the for statement
+ * Return : Always 0
  */
 void print_alphabet(void)
 {
