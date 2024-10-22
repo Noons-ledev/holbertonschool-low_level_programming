@@ -1,12 +1,16 @@
-#include <stdio.h>
 #include "main.h"
+
 /**
- *main- Entry of program
- *Description: Prints alphabet lowercase
- *Return : Return 1
+ * _putchar - writes the character c to stdout
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
-int main(void)
+void print_alphabet(void)
 {
-print_alphabet();
-return (1);
+char i;
+for (i = 'a' ; i <= 'z'; i++)
+{
+_putchar(i);
+}
+_putchar('\n');
 }
