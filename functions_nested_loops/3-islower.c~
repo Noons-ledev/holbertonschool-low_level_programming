@@ -1,11 +1,11 @@
 #include "main.h"
 /**
 * _islower- Checks for lower or uppercase
-* Description : Checks for lower or uppercase
+* Description : Checks for lower or uppercase 
 * Return: Always return 1 for lowercase (true)
 */
 
-int _islower(int b)
+int _islower(int c)
 {
-return (b >= 'a' && b <= 'z');
+return (c >= 'a' && c <= 'z');
 }
