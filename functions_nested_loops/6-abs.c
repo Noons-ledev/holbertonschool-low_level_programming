@@ -3,7 +3,7 @@
  *_abs - Return absolute value of given integer
  *Description: Use of if to check if given int is positive or not
  *@a: Character to check
- *Return : Return (a) for absolute value
+ *Return: Return (a) for absolute value
  */
 int _abs(int a)
 {
