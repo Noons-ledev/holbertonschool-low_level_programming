@@ -30,6 +30,9 @@ _putchar(' ');
 }
 for (b = 0; b <= 9;b++)
 {
+produit = a * b;
+p1 = produit / 10;
+p2 = produit % 10;
 if (produit < 10)
 {
 _putchar(produit + '0');
