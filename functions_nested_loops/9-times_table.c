@@ -33,7 +33,7 @@ _putchar(p2 + '0');
 }
 if (b < 9)
 {
-if (produit > 10)
+if (produit >= 10)
 {
 _putchar(',');
 _putchar(' ');
