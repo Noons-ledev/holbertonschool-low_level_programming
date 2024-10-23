@@ -12,7 +12,7 @@ int h1;
 int h2;
 int m1;
 int m2;
-for (heures = 0; heures <= 23)
+ for (heures = 0; heures <= 23;)
 {
 h1 = heures / 10;
 h2 = heures % 10;
