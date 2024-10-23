@@ -28,5 +28,6 @@ _putchar('\n');
 {
 _putchar((res / 10) + '0');
 _putchar((res % 10) + '0');
-
+}
+}
 }
