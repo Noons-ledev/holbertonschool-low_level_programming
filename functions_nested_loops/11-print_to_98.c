@@ -36,7 +36,6 @@ _putchar((n2 % 10) + ' ');
 }
 else
 {
-_putchar(
 _putchar((n2 / 10) + '0');
 _putchar((n2 % 10) + ' ');
 n++;
