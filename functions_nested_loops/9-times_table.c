@@ -23,8 +23,11 @@ _putchar(produit + '0');
 else if (produit < 10 && produit == 0)
 {
 _putchar(produit + '0');
+_putchar(',');
+_putchar(' ');
+_putchar(' ');
 }
-else
+else 
 {
 _putchar(p1 + '0');
 _putchar(p2 + '0');
