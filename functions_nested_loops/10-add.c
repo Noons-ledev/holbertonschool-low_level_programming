@@ -14,21 +14,20 @@ int s = res % 10;
 if (res < 0)
 {
 _putchar('-');
+_putchar((res / 100) + '0');
+_putchar(((res / 10) / 10) + '0');
+_putchar((res % 10) + '0');
 }
-else
-{
-if (res > 100)
+else if (res > 100)
 {
 _putchar(r + '0');
 _putchar(e + '0');
 _putchar(s + '0');
 _putchar('\n');
 }
- if (res < 100) 
+else if (res < 100) 
 {
 _putchar((res / 10) + '0');
 _putchar((res % 10) + '0');
-return (0);
-}
 }
 }
