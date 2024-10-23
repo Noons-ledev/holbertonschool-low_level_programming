@@ -23,7 +23,7 @@ _putchar(' ');
 else
 {
 _putchar(p1 + '0');
-_putchar(p2 + '0')
+_putchar(p2 + '0');
 _putchar(',');
 _putchar(' ');
 _putchar(' ');
@@ -39,7 +39,7 @@ _putchar(' ');
 }
 else
 _putchar(p1 + '0');
-_putchar(p2 + '0')
+_putchar(p2 + '0');
 _putchar(',');
 _putchar(' ');
 _putchar(' ');
