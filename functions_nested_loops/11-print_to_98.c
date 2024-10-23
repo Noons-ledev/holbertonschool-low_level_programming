@@ -29,7 +29,7 @@ while ( n < 98)
 int n2 = n + 1;
 if ( n < 0)
 {
-_putchar('-')
+_putchar('-');
 _putchar((n2 / 100) + '0');
 _putchar((n2 / 10) + '0');
 _putchar((n2 % 10) + ' ');
