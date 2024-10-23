@@ -11,13 +11,35 @@ int b = 0;
 for (a = 0; a <=9; a++)
 {
 int produit = a * b;
+int p1 = produit / 10;
+int p2 = produit % 10;
+if (produit < 10)
+{
 _putchar(produit + '0');
 _putchar(',');
 _putchar(' ');
 _putchar(' ');
+}
+else
+{
+_putchar(p1 + '0');
+_putchar(p2 + '0')
+_putchar(',');
+_putchar(' ');
+_putchar(' ');
+}
 for (b = 0; b <= 9;b++)
 {
+if (produit < 10)
+{
 _putchar(produit + '0');
+_putchar(',');
+_putchar(' ');
+_putchar(' ');
+}
+else
+_putchar(p1 + '0');
+_putchar(p2 + '0')
 _putchar(',');
 _putchar(' ');
 _putchar(' ');
