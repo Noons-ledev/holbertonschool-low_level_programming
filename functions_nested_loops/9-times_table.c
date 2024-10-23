@@ -26,7 +26,7 @@ _putchar(produit + '0');
 _putchar(',');
 _putchar(' ');
 }
-else if (produit > 10)
+else if (produit >= 10)
 {
 _putchar(p1 + '0');
 _putchar(p2 + '0');
