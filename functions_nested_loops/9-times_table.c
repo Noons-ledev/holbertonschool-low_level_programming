@@ -21,10 +21,17 @@ _putchar(produit + '0');
 }
 else if (produit == 0)
 {
+  if ( b != 9)
+    {
 _putchar(produit + '0');
 _putchar(',');
 _putchar(' ');
 _putchar(' ');
+}
+else
+{
+_putchar(produit + '0');
+}
 }
 else if (produit >= 10)
 {
@@ -45,7 +52,7 @@ _putchar(' ');
 _putchar(' ');
 }
 } 
-else if (b == 9)
+ else if (b == 9)
 {
 _putchar('\n');
 }
