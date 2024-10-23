@@ -50,9 +50,10 @@ _putchar(' ');
 _putchar(' ');
 }
 } 
- else if (b == 9)
+else if (b == 9)
 {
 _putchar('\n');
+}
 }
 }
 }
