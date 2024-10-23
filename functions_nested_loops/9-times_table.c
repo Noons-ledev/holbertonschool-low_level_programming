@@ -8,9 +8,9 @@ void times_table(void)
 {
 int a = 0;
 int b = 0;
-for (a = 0; a <=9; a++)
+for (a = 0 ; a <= 9 ; a++)
 {
-for (b = 0; b <= 9;b++)
+for (b = 0 ; b <= 9 ; b++)
 {
 int produit = a * b;
 int p1 = produit / 10;
