@@ -15,7 +15,7 @@ for (b = 0; b <= 9;b++)
 int produit = a * b;
 int p1 = produit / 10;
 int p2 = produit % 10;
-if (produit < 10 && produit != 0)
+if (produit < 10)
 {
 if ( b != 0)
 {
