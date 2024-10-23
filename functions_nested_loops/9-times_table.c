@@ -17,7 +17,7 @@ int p1 = produit / 10;
 int p2 = produit % 10;
 if (produit < 10 && produit != 0)
 {
-_putchar(' ')
+_putchar(' ');
 _putchar(produit + '0');
 }
 else if (produit == 0)
