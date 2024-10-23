@@ -14,18 +14,19 @@ int m1;
 int m2;
 for (heures = 0; heures <= 23;)
 {
+while (minutes < 60);
+{
 h1 = heures / 10;
 h2 = heures % 10;
 m1 = minutes / 10;
 m2 = minutes % 10;
-for (minutes = 0; minutes <= 59; minutes++)
-{ 
 _putchar(h1 + '0') ;
 _putchar(h2 + '0');
 _putchar(':');
 _putchar(m1 + '0');
 _putchar(m2 + '0');
 _putchar('\n');
+minutes++;
 }
 if (minutes == 60)
 {
