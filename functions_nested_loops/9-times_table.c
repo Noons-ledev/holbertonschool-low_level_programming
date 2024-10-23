@@ -25,7 +25,6 @@ else if (produit == 0)
 _putchar(produit + '0');
 _putchar(',');
 _putchar(' ');
-_putchar(' ');
 }
 else if (produit > 10)
 {
