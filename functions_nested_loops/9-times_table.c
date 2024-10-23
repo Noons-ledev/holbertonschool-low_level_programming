@@ -34,6 +34,7 @@ _putchar(' ');
 _putchar(produit + '0');
 _putchar('\n');
 }
+}
 else if ( produit >= 10)
 {
 _putchar(p1 + '0');
