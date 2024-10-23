@@ -45,7 +45,7 @@ _putchar(' ');
 _putchar(' ');
 }
 } 
-Else if (b == 9)
+else if (b == 9)
 {
 _putchar('\n');
 }
