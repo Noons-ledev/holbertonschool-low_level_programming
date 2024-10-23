@@ -15,7 +15,12 @@ for (b = 0; b <= 9;b++)
 int produit = a * b;
 int p1 = produit / 10;
 int p2 = produit % 10;
-if (produit < 10)
+if (produit < 10 && produit != 0)
+{
+_putchar(' ');
+_putchar(produit + '0');
+}
+else if (produit == 0)
 {
 _putchar(produit + '0');
 }
@@ -29,7 +34,7 @@ if (b < 9)
 _putchar(',');
 _putchar(' ');
 }
-else
+else 
 {
 _putchar('\n');
 }
