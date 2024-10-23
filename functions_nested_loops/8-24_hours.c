@@ -16,7 +16,7 @@ int h1 = heures / 10;
 int h2 = heures % 10;
 int m1 = minutes / 10;
 int m2 = minutes % 10;
-_putchar(h1 + '0') ;
+_putchar(h1 + '0');
 _putchar(h2 + '0');
 _putchar(':');
 _putchar(m1 + '0');
