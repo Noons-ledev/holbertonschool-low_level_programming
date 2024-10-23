@@ -21,8 +21,15 @@ if ( n < 98 )
 int n1 = n + 1;
 while (n1 < 99)
 {
+if (n1 == 98)
+{
+printf("%d\n", n1);
+}
+else
+{
 printf("%d, ", n1 );
 n1++;
+}
 }
 }
 if ( n > 98)
@@ -30,8 +37,15 @@ if ( n > 98)
 int n2 = n - 1;
 while (n2 > 97)
 {
+if (n2 == 98)
+{
+printf("%d\n", n2);
+}
+else
+{
 printf("%d, ", n2);
 n2--;
+}
 }
 }
 }
