@@ -1,47 +1,30 @@
+#include <stdio.h>
 #include "main.h"
 /**
- *paint_to_98 - print all until 98
- *@n : Printing starts here
- *Description: According to given number
- *Return: Always 0 (success)
- *
+ *print_to_98 - print to 98
+ *@n: Number to start with
+ *Description : Count depends on initial value for n 
+ *Return: Always return (success)
  */
 void print_to_98(int n)
 {
-_putchar((n / 100) + '0');
-_putchar(((n / 10) /10) + '0');
-_putchar((n % 10) + ' ');
+printf("%d, ", n);
+if ( n < 98 )
+{
+int n1 = n + 1;
+while (n1 < 99)
+{
+printf("%d, ", n1 );
+n1++;
+}
+}
 if ( n > 98)
 {
-while ( n > 98)
+int n2 = n - 1;
+while (n2 > 97)
 {
-int n1 = n - 1;
-_putchar((n1 / 100) + '0');
-_putchar(((n1 / 10) /10) + '0');
-_putchar((n1 % 10) + ' ');
-n--;
-}
-}
-else if (n < 98)
-{
-while ( n < 98)
-{
-int n2 = n + 1;
-if ( n < 0)
-{
-_putchar('-');
-_putchar((n2 / 100) + '0');
-_putchar((n2 / 10) + '0');
-_putchar((n2 % 10) + ' ');
-}
-else
-{
-_putchar((n2 / 10) + '0');
-_putchar((n2 % 10) + ' ');
-n++;
+printf("%d, ", n2);
+n2--;
 }
 }
 }
-}
-     
-	  
