@@ -24,7 +24,7 @@ _putchar(e + '0');
 _putchar(s + '0');
 _putchar('\n');
 }
-if (res < 100 
+ if (res < 100) 
 {
 _putchar((res / 10) + '0');
 _putchar((res % 10) + '0');
