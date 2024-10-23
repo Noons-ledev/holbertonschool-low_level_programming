@@ -36,7 +36,7 @@ if (b < 9 && produit != 0)
 _putchar(',');
 _putchar(' ');
 }
-else if (b == 9)
+Else if (b == 9)
 {
 _putchar('\n');
 }
