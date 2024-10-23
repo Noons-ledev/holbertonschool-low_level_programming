@@ -28,7 +28,6 @@ printf("%d\n", n1);
 else
 {
 printf("%d, ", n1 );
-n1++;
 }
 }
 }
