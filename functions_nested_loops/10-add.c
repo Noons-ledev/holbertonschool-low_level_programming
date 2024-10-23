@@ -5,7 +5,7 @@
  *Return: Always return 0(success)
  */
 
-Int add(int a, int b)
+int add(int a, int b)
 {
 int res = a + b;
 int r = res / 100;
