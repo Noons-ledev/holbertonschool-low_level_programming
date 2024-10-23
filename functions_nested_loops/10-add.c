@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *add- additionne deux chiffres donnes
- *description : On entre deux chiffre 
+ *description : On entre deux chiffre
  *Return: Always return 0(success)
  */
 
