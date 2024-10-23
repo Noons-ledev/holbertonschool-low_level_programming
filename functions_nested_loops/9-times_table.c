@@ -17,34 +17,23 @@ int p1 = produit / 10;
 int p2 = produit % 10;
 if (produit < 10 && produit != 0)
 {
-_putchar(' ');
-_putchar(produit + '0');
-}
-else if (produit == 0)
+if ( b != 0)
 {
-if (b < 9)
-{
-_putchar(produit + '0');
-_putchar(',');
 _putchar(' ');
 }
- else
-{
 _putchar(produit + '0');
-_putchar('\n');
-}
 }
 else if ( produit >= 10)
 {
 _putchar(p1 + '0');
 _putchar(p2 + '0');
 }
-if (b < 9 && produit != 0)
+if (b < 9)
 {
 _putchar(',');
 _putchar(' ');
 }
-else if (b == 9 && produit != 0)
+else
 {
 _putchar('\n');
 }
