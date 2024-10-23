@@ -19,7 +19,7 @@ printf("%d, ",n);
 if ( n < 98 )
 {
 int n1 = n + 1;
-while (n1 < 99)
+for (n1 = n1; n1 < 99; n1++)
 {
 if (n1 == 98)
 {
@@ -35,7 +35,7 @@ n1++;
 if ( n > 98)
 {
 int n2 = n - 1;
-while (n2 > 97)
+for ( n2 = n2; n2 > 97; n2--)
 {
 if (n2 == 98)
 {
@@ -44,7 +44,6 @@ printf("%d\n", n2);
 else
 {
 printf("%d, ", n2);
-n2--;
 }
 }
 }
