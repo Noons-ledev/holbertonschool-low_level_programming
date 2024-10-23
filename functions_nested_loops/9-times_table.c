@@ -22,7 +22,7 @@ _putchar(',');
 _putchar(' ');
 _putchar(' ');
 }
-else if (produit < 10 && != 0)
+else if (produit < 10 && produit != 0)
 {
 _putchar(' ');
 _putchar(produit + '0');
