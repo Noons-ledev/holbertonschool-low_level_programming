@@ -17,8 +17,11 @@ if ( a != b || a < b)
 putchar(a + '0');
 putchar(b + '0');
 }
+if (i != 89)
+{
 putchar(',');
 putchar(' ');
+}
 }
 putchar('\n');
 return (0);
