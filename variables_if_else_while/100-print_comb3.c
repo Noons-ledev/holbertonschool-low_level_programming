@@ -14,8 +14,8 @@ int a = i / 10;
 int b = i % 10;
 if ( a != b || a < b)
 {
-putchar(a);
-putchar(b);
+putchar(a + '0');
+putchar(b + '0');
 }
 putchar(',');
 putchar(' ');
