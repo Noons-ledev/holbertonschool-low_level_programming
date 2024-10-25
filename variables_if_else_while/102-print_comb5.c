@@ -19,6 +19,9 @@ for (j = 1; j <= 99; j++)
 {
 if (i < j)
 {
+if (a == 0)
+putchar(0 + '0');
+else
 putchar(a + '0');
 putchar(b + '0');
 putchar(' ');
