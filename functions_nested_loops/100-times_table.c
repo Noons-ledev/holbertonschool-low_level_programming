@@ -34,7 +34,7 @@ _putchar((produit % 10) + '0');
 else if (produit >= 100)
 {
 _putchar((produit / 100) + '0');
-_putchar(((produit % 10) / 10) + '0');
+_putchar(((produit % 100) / 10) + '0');
 _putchar((produit % 10) + '0');
 }
 if (b != n)
