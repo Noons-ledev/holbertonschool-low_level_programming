@@ -5,7 +5,7 @@
  *@n: Chosen number
  *Return: nothing
  */
-void print_times_table(int n);
+void print_times_table(int n)
 {
 int a;
 int b;
