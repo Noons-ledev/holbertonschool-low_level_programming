@@ -9,24 +9,22 @@ int main(void)
 {
 int i = 0;
 int j = 0;
-for (i = 0; i <= 99; i++)
+for (i = 0; i <= 98; i++)
 {
-int a = i / 10;
-int b = i % 10;
-int c = j / 10;
-int d = j % 10;
 for (j = 1; j <= 99; j++)
 {
-if (i < j)
+if ((i / 10) == 0)
 {
-if (a == 0)
 putchar(0 + '0');
+}
 else
-putchar(a + '0');
-putchar(b + '0');
+{
+putchar((i / 10) + '0');
+}
+putchar((i % 10) + '0');
 putchar(' ');
-putchar(c + '0');
-putchar(d + '0');
+putchar((j / 10) + '0');
+putchar((j % 10) + '0');
 }
 if (i != 98 && j != 99)
 {
