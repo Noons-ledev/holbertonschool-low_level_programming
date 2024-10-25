@@ -36,8 +36,11 @@ _putchar((produit / 100) + '0');
 _putchar(((produit / 10) / 10) + '0');
 _putchar((produit % 10) + '0');
 }
+if (a != n)
+{
 _putchar(',');
 _putchar(' ');
+}
 }
 _putchar('\n');
 }
