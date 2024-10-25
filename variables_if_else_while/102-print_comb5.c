@@ -15,7 +15,7 @@ int a = i / 10;
 int b = i % 10;
 int c = j / 10;
 int d = j % 10;
-for (j = 0; j <= 99; j++)
+for (j = 1; j <= 99; j++)
 {
 if (i < j)
 {
