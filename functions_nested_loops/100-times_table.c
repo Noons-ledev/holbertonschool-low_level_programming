@@ -20,26 +20,26 @@ if (produit < 10)
 {
 if (b != 0)
 {
-putchar(' ');
+_putchar(' ');
 }
-puthar(produit + '0');
+_putchar(produit + '0');
 }
 else if (produit >= 10 && produit < 100)
 {
-putchar(' ');
-putchar((produit / 10) + '0');
-putchar((produit % 10) + '0');
+_putchar(' ');
+_putchar((produit / 10) + '0');
+_putchar((produit % 10) + '0');
 }
 else if (produit >= 100)
 {
-putchar((produit / 100) + '0');
-putchar(((produit / 10) / 10) + '0');
-putchar((produit % 10) + '0');
+_putchar((produit / 100) + '0');
+_putchar(((produit / 10) / 10) + '0');
+_putchar((produit % 10) + '0');
 }
-putchar(',');
-putchar(' ');
+_putchar(',');
+_putchar(' ');
 }
-putchar('\n');
+_putchar('\n');
 }
 }
 }
