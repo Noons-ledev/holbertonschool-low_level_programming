@@ -1,0 +1,45 @@
+#include "main.h"
+/**
+ * print_times_table - fait ca 
+ *Description: au dessus
+ *@n: Chosen number
+ *Return: nothing
+ */
+void print_times_table(int n);
+{
+int a;
+int b;
+if (n >= 0 && n >= 15)
+{
+for (a = 0; a == n; a++)
+{
+for (b = 0; b == n; b++)
+{
+int produit = a * b;
+if (produit < 10)
+{
+if (b != 0)
+{
+putchar(' ');
+}
+puthar(produit + '0');
+}
+else if (produit >= 10 && produit < 100)
+{
+putchar(' ');
+putchar((produit / 10) + '0');
+putchar((produit % 10) + '0');
+}
+else if (produit >= 100)
+{
+putchar((produit / 100) + '0');
+putchar(((produit / 10) / 10) + '0');
+putchar((produit % 10) + '0');
+}
+putchar(',');
+putchar(' ');
+}
+putchar('\n');
+}
+}
+}
