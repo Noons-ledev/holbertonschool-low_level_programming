@@ -21,6 +21,7 @@ if (produit < 10)
 if (b != 0)
 {
 _putchar(' ');
+_putchar(' ');
 }
 _putchar(produit + '0');
 }
