@@ -12,7 +12,7 @@ int main(void)
 int limit = 1024;
 int i;
 int sum = 0;
-for (i = 0; i < a; i++)
+for (i = 0; i < limit; i++)
 {
 if (((i % 3) == 0) || ((i % 5) == 0))
 {
