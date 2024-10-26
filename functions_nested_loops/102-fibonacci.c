@@ -16,10 +16,14 @@ int n;
 double sum;
 for (n = 0; n < 50; n++)
 {
-printf("%.0f, ", a);
+printf("%.0f", a);
 sum = a + b;
 a = b;
 b = sum;
+if (n != 49)
+{
+printf(", ");
+}
 }
 printf("\n");
 return (0);
