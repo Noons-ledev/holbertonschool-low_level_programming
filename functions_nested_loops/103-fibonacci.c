@@ -14,7 +14,7 @@ double a = 1;
 double b = 2;
 int n;
 double sum;
-int res = 0;
+double res = 0;
 for (n = 0; n < 50; n++)
 {
 while (a < 4000000)
