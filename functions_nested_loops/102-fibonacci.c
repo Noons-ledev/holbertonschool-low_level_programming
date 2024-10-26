@@ -16,7 +16,7 @@ int n;
 double sum;
 for (n = 0; n < 50; n++)
 {
-printf("%f, ", a);
+printf("%.0f, ", a);
 sum = a + b;
 a = b;
 b = sum;
