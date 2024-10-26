@@ -4,7 +4,7 @@
 
 /**
  *main- entry
- *description: fib 
+ *description: fib
  *Return: always 0
  */
 
