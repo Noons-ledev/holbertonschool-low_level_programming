@@ -17,7 +17,7 @@ double sum;
 double res = 0;
 for (n = 0; n < 50; n++)
 {
-while (a < 4000000)
+while (a <= 4000000)
 {
 sum = a + b;
 res = res + a;
