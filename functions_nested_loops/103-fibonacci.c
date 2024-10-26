@@ -15,7 +15,7 @@ double b = 2;
 int n;
 double sum;
 double res = 0;
-for (n = 0; n < 50; n++)
+for (n = 0; n < 49; n++)
 {
 while (a <= 4000000)
 {
