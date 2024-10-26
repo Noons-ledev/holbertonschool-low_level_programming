@@ -25,6 +25,7 @@ a = b;
 b = sum;
 }
 }
+res = res / 2;
 printf("%.0f\n", res);
 return (0);
 }
