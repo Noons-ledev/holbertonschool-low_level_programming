@@ -10,10 +10,10 @@
 
 int main(void)
 {
-double a = 1;
-double b = 2;
+unsigned long long a = 1;
+unsigned long long b = 2;
 int n;
-double sum;
+unsigned long long sum;
 for (n = 0; n < 98; n++)
 {
 printf("%.0f", a);
