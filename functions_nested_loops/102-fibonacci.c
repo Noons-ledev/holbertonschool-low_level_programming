@@ -10,10 +10,10 @@
 
 int main(void)
 {
-int a = 1;
-int b = 2;
+double a = 1;
+double b = 2;
 int n;
-int sum;
+double sum;
 for (n = 0; n < 50; n++)
 {
 printf("%d, ", a);
