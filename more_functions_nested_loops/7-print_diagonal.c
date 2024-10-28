@@ -17,7 +17,7 @@ else
 {
 for (i = 0; i <= n; i++)
 {
-for (a = 0; a <= n; a++)
+for (a = 0; a <= i; a++)
 {
 _putchar(' ');
 }
