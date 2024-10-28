@@ -17,10 +17,11 @@ if (n == 0 || n < 0)
 {
 _putchar('\n');
 }
+else
+{
 _putchar('\\');
-}
 _putchar('\n');
 _putchar(i * ' ');
 }
 }
-      
+}      
