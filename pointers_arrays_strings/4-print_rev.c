@@ -9,13 +9,13 @@
 
 void print_rev(char *s)
 {
-char str;
+char *start = s;
 while (*s)
 {
 s++;
 }
 s--;
-while (*s >= str)
+while (s >= start)
 {
 _putchar(*s);
 s--;
