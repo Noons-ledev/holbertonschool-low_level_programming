@@ -12,12 +12,12 @@ int length = 0;
 char *start = str;
 while (*str != '\0')
 {
-s++;
+str++;
 length++;
 }
 if (length % 2 != 0)
 {
-char *mid = str + ((length - 1) / 2);
+char *mid = start + ((length - 1) / 2);
 while (*mid != '\0')
 {
 _putchar(*mid);
@@ -27,7 +27,7 @@ _putchar('\n');
 }
 else
 {
-char *mid1 = str + (length / 2);
+char *mid1 = start + (length / 2);
 while (*start != *mid1)
 {
 _putchar(*start);
