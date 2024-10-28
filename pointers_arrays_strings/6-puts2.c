@@ -13,8 +13,9 @@ while (*str != '\0')
 _putchar(*str);
 if ((*str + 1) != '\0')
 {
-str += 2;
+str++ ;
 }
+str++;
 }
- _putchar('\n');
+_putchar('\n');
 }
