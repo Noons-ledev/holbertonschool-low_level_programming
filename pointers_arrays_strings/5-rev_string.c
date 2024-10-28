@@ -3,7 +3,7 @@
  *rev_string- reverse a string
  *@s: points to the string
  *description: does it
- *Return: nothing 
+ *Return: nothing
  *
  */
 void rev_string(char *s)
@@ -22,5 +22,5 @@ temp = *start;
 *s = temp;
 s--;
 start++;
-} 
+}
 }
