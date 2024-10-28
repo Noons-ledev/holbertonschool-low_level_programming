@@ -15,7 +15,7 @@ while (*s)
 s++;
 }
 s--;
-while (*start < '\0')
+while (start < s)
 {
 temp = *start;
 *start = *s;
