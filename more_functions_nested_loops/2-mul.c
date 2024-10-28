@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  *mul- multiplie deux entiers
- *@a @b: Characters to multiply
+ *@b: Characters to multiply
+ *@a: second character
  *Description: Does what mul does
  *Return: Product
  */
