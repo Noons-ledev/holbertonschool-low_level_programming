@@ -22,6 +22,5 @@ temp = *start;
 *s = temp;
 s--;
 start++;
-}
-_putchar('\n'); 
+} 
 }
