@@ -2,7 +2,7 @@
 /**
  *reset_to_98- Reset the value pointed by *n on 98
  *description: Does it
- *
+ *@n: Value
  *Return: value of *n
  */
 void reset_to_98(int *n)
