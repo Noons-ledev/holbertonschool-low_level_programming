@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *more_numbers- print i times a
- *description: do it 
+ *description: do it
  *Return: Nothing (void)
  *
  */
