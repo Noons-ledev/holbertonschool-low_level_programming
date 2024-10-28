@@ -27,11 +27,11 @@ _putchar('\n');
 }
 else if (length % 2 == 0)
 {
-char *mid1 = start + (length / 2);
-while (*start != *mid1)
+char *mid1 = start + ((length - 1)/ 2);
+while (*mid1 != '\0')
 {
-_putchar(*start);
-start++;
+_putchar(*mid1);
+mid1++;
 }
 _putchar('\n');
 }
