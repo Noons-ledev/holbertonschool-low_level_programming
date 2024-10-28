@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *print_line- Print a _ line
- *@n: number of time to print _ 
+ *@n: number of time to print _
 *description: n times _
  *Return: nothing(void)
  *
