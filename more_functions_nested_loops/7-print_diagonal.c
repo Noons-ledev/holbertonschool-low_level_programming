@@ -1,15 +1,15 @@
 #include "main.h"
 /**
- *print_diagonal-print a diagonal of \
- *@n : number of times printing n
- *description: do it
+ *print_diagonal-print a diagonal of
+ *@n: times to print line
+ *Description: do it
  *Return: nothing (void)
  */
 void print_diagonal(int n)
 {
 int i;
 int a;
-if ( n == 0 || n < 0)
+if (n == 0 || n < 0)
 {
 _putchar('\n');
 }
