@@ -13,9 +13,12 @@ while (*str != '\0')
 _putchar(*str);
 if ((*str + 1) != '\0')
 {
-str++ ;
+str += 2;
 }
-str++;
+else
+{
+break;
+}
 }
 _putchar('\n');
 }
