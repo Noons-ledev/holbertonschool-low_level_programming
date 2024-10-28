@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_strlen- compte la longueur 
+ *_strlen- compte la longueur
  *description: does it
  *@s: String to occur
  *Return: Value of length
@@ -12,7 +12,7 @@ int length = 0;
 while (*s != '\0')
 {
 s++;
-length ++;
+length++;
 }
 return (length);
 }
