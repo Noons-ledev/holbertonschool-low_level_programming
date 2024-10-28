@@ -19,10 +19,11 @@ _putchar('\n');
 }
 else
 {
+_putchar(i * ' ');
 _putchar('\\');
 _putchar('\n');
-_putchar(i * ' ');
 }
 }
 }
+_putchar('\n');
 }
