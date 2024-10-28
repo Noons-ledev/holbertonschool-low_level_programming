@@ -27,7 +27,7 @@ _putchar('\n');
 }
 else if (length % 2 == 0)
 {
-char *mid1 = start + ((length - 1)/ 2);
+char *mid1 = start + ((length - 1) / 2) + 1;
 while (*mid1 != '\0')
 {
 _putchar(*mid1);
