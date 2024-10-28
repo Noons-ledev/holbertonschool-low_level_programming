@@ -17,7 +17,7 @@ length++;
 }
 if (length % 2 != 0)
 {
-char *mid = start + ((length - 1) / 2);
+char *mid = start + ((length - 1) / 2) + 1;
 while (*mid != '\0')
 {
 _putchar(*mid);
@@ -25,7 +25,7 @@ mid++;
 }
 _putchar('\n');
 }
-else
+else if (length % 2 == 0)
 {
 char *mid1 = start + (length / 2);
 while (*start != *mid1)
