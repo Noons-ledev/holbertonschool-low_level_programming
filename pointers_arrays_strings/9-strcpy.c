@@ -4,7 +4,7 @@
  *@dest: buffer to fill
  *@src: buffer to copy
  *description: voila quoi
- *return: pointer to dest
+ *Return: pointer to dest
  */
 char *_strcpy(char *dest, char *src)
 {
