@@ -19,6 +19,10 @@ if (*s >= '0' && *s <= '9')
 _numberin = true;
 result = result * 10 + (*s - '0');
 }
+else if (_numberin)
+{
+break;
+}
 if (*s == '-')
 {
 sign *= -1;
