@@ -34,5 +34,8 @@ if (sign < 0)
 result = -result;
 }
 if (!_numberin)
+{
 return (0);
+}
+return (result);
 }
