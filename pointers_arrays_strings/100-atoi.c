@@ -9,7 +9,7 @@
  */
 int _atoi(char *s)
 {
-int sign = 0;
+int sign = 1;
 int result = 0;
 bool _numberin = false;
 while (*s != '\0')
