@@ -4,7 +4,7 @@
  *_atoi(char *s)-Converti a string en integer
  *@s: Pointeur vers l'element premier du string
  *description: voila
- *return: nothing
+ *Return: nothing
  *
  */
 int _atoi(char *s)
