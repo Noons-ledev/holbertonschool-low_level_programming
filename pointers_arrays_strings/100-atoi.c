@@ -21,7 +21,7 @@ result = result * 10 + (*s - '0');
 }
 if (*s == '-')
 {
-sign = sign + 1;
+sign = sign - 1;
 }
 else if (*s == '+')
 {
