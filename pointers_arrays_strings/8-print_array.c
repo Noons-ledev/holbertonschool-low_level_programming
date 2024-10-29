@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *print_array-Prints array until element n 
+ *print_array-Prints array until element n
  *@a: pointer
  *@n: element number to print until
  *description: voir la haut
