@@ -29,7 +29,7 @@ sign = sign + 1;
 }
 s++;
 }
-if (sign < 0)
+if (sign <= 0)
 {
 result = -result;
 }
