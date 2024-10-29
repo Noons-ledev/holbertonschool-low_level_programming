@@ -23,10 +23,6 @@ if (*s == '-')
 {
 sign = sign - 1;
 }
-else if (*s == '+')
-{
-sign = sign + 1;
-}
 s++;
 }
 if (sign <= 0)
