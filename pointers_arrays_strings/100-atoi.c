@@ -1,3 +1,4 @@
+#include <stdbool.h>
 #include "main.h"
 /**
  *_atoi(char *s)-Converti a string en integer
