@@ -8,7 +8,7 @@
  */
 int _atoi(char *s)
 {
-int sign = 0
+int sign = 0;
 int result = 0;
 bool _numberin = false;
 while (*s != '\0')
@@ -24,13 +24,13 @@ sign = sign + 1;
 }
 else if (*s == '+')
 {
-sign = sign +1;
+sign = sign + 1;
 }
-s++; 
+s++;
 }
 if (sign < 0)
 {
-result = - result;
+result = -result;
 }
 if (!_numberin)
 {
