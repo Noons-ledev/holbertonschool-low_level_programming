@@ -33,5 +33,5 @@ if (!_numberin)
 {
 return (0);
 }
-return (sign * result);
+return (sign *result);
 }
