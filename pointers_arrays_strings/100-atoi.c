@@ -21,7 +21,7 @@ result = result * 10 + (*s - '0');
 }
 if (*s == '-')
 {
-sign = sign - 1;
+sign *= -1;
 }
 s++;
 }
@@ -33,5 +33,5 @@ if (!_numberin)
 {
 return (0);
 }
-return (result);
+return (sign * result);
 }
