@@ -1,10 +1,11 @@
 #include "main.h"
 /**
- *
- *
- *
- *
- *
+ *_strncat- concatenation of strings 
+ *description: does it
+ *@dest: attend src here
+ *@src: copy in dest
+ *@n: number of characters to copy if src[n] != '\0'
+ *Return: nothing
  */
 char *_strncat(char *dest, char *src, int n)
 {
