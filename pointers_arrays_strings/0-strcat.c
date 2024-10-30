@@ -32,6 +32,6 @@ for (a = 0; a < j; a++)
 {
 origin_dest[i + a] = src[a];
 }
-origin_dest[a] = '\0';
+origin_dest[i + j] = '\0';
 return (origin_dest);
 }
