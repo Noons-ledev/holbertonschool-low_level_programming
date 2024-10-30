@@ -24,5 +24,6 @@ if (src_length < n)
 {
 *dest ='\0';
 }
+return (dest);
 }
   
