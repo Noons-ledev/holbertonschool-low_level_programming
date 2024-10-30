@@ -10,28 +10,16 @@
 
 char *_strcat(char *dest, char *src)
 {
-int i = 0;
-int j = 0;
-int a;
-char *origin_dest;
-while (dest[i] != '\0')
+char *p = dest;
+while (*p != '\0')
 {
-i++;
+p++;
 }
-while (src[j] != '\0')
+while (*src != '\0')
 {
-j++;
+*p = *src;
+p++;
+src++;
 }
-origin_dest = malloc((i + j + 1) * sizeof(char));
-for (a = 0; a < i; a++)
-{
-origin_dest[a] = dest[a];
-}
-
-for (a = 0; a < j; a++)
-{
-origin_dest[i + a] = src[a];
-}
-origin_dest[i + j] = '\0';
-return (origin_dest);
+return (dest);
 }
