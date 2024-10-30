@@ -34,5 +34,5 @@ a++;
 src++;
 }
 dest[a] = '\0';
-return (dest);
+return (origin_dest);
 }
