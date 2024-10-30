@@ -13,6 +13,7 @@ char *_strcat(char *dest, char *src)
 int i = 0;
 int j = 0;
 int a;
+char *origin_dest = dest;
 while (dest[i] != '\0')
 {
 i++;
@@ -21,7 +22,6 @@ while (src[j] != '\0')
 {
 j++;
 }
-char *origin_dest = dest;
 dest = malloc((i + j) *sizeof(char) + 1);
 for (a = 0; a < i; a++)
 {
@@ -34,5 +34,5 @@ a++;
 src++;
 }
 dest[a] = '\0';
-return (*(dest));
+return (dest);
 }
