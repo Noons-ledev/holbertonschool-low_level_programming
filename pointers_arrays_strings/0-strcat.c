@@ -22,10 +22,10 @@ while (src[j] != '\0')
 {
 j++;
 }
-dest = malloc((i + j) *sizeof(char) + 1);
+dest = malloc(((i + j) + 1) *sizeof(char));
 for (a = 0; a < i; a++)
 {
-dest[a] = origin_dest[a];
+dest[a] = *origin_dest[a];
 }
 while (*src != '\0')
 {
@@ -34,5 +34,5 @@ a++;
 src++;
 }
 dest[a] = '\0';
-return (origin_dest);
+return (dest);
 }
