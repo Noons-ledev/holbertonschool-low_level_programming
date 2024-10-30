@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_strncat- concatenation of strings 
+ *_strncat- concatenation of strings
  *description: does it
  *@dest: attend src here
  *@src: copy in dest
