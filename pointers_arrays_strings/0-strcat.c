@@ -27,12 +27,10 @@ for (a = 0; a < i; a++)
 {
 origin_dest[a] = dest[a];
 }
-a = i;
-while (*src != '\0')
+
+for (a = 0; a < j; a++)
 {
-origin_dest[a] = *src;
-a++;
-src++;
+origin_dest[i + a] = src[a];
 }
 origin_dest[a] = '\0';
 return (origin_dest);
