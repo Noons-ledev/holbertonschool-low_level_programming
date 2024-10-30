@@ -25,7 +25,7 @@ j++;
 origin_dest = malloc((i + j + 1) *sizeof(char));
 for (a = 0; a < i; a++)
 {
-origin_dest[a] = origin_dest[a];
+origin_dest[a] = dest[a];
 }
 while (*src != '\0')
 {
