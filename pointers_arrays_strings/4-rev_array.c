@@ -1,32 +1,30 @@
 #include "main.h"
 /**
  *reverse_array- reverse an array from n char
- *@a: string to work into 
+ *@a: string to work into
  *@n: element n to start the reverse from
  *description: does it
  *Return: nothing (void)
  */
 void reverse_array(int *a, int n)
 {
-int i = 0;
+int *i = a;
 int temp;
-while (a[i] < a[n] && a[i] != '\0')
+while (*i != '\0')
 {
 i++;
 }
-if (a[i] == '\0')
+if (*i == '\0')
 {
 i--;
 }
-while (a < a[i])
+while (a < i)
 {
 temp = *a;
-a = a[i];
-a[i] = temp;
+a = *i;
+*i = temp;
 a++;
 i--;
 }
+*i = '\0';
 }
-  
-  
-  
