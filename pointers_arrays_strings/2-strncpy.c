@@ -21,8 +21,8 @@ for (a = 0; a < n;a++)
 if (src[a] != '\0')
 {
 dest[a] = src[a];
+temp_desk++;
 }
-temp_dest++;
 else
 {
 break;
