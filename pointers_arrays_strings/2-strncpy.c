@@ -17,18 +17,11 @@ return (dest);
 }
 else
 {
-for (a = 0; a < n; a++)
-{
-if(src[a] != '\0')
+for (a = 0; a < n && src[a] != '\0';a++)
 {
 dest[a] = src[a];
 }
-else
-{
-break;
-}
-}
-if (a < n)
+for (a = a; a < n; a++)
 {
 dest[a] ='\0';
 }
