@@ -11,15 +11,18 @@
 char *_strncpy(char *dest, char *src, int n)
 {
 int a = 0;
-if (src == NULL || dest == NULL)
+if (src == NULL || dest == NULL || n <= 0)
 {
-return NULL;
+return (dest);
 }
-for (a = 0; a < n ;a++)
+else
 {
-if (src[a] != '\0')
+for (a = 0; a < n; a++)
+{
+if(src[a] != '\0')
 {
 dest[a] = src[a];
+a++;
 }
 else
 {
@@ -32,4 +35,4 @@ dest[a] ='\0';
 }
 return (dest);
 }
-  
+}
