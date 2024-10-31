@@ -30,7 +30,7 @@ break;
 }
 if (a < n)
 {
-temp_dest ='\0';
+*temp_dest ='\0';
 }
 return (dest);
 }
