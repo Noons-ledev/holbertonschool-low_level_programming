@@ -9,6 +9,10 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
+if (src == NULL)
+{
+return NULL;
+}
 int a = 0;
 for (a = 0; a < n ;a++)
 {
