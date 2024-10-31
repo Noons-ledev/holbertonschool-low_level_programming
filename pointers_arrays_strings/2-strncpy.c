@@ -20,7 +20,7 @@ for (a = 0; a < n;a++)
 {
 if (src[a] != '\0')
 {
-temp_dest[a] = src[a];
+dest[a] = src[a];
 temp_dest++;
 }
 else
