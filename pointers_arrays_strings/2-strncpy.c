@@ -22,7 +22,6 @@ for (a = 0; a < n; a++)
 if(src[a] != '\0')
 {
 dest[a] = src[a];
-a++;
 }
 else
 {
