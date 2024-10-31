@@ -16,7 +16,7 @@ while ( src[src_length] != '\0')
 {
 src_length++;
 }
-for (a = 0; a <= n;a++)
+for (a = 0; a < n;a++)
 {
 if (src[a] != '\0')
 {
