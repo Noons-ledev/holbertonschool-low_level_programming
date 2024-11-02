@@ -1,4 +1,5 @@
 #include "main.h"
+#include <limits.h>
 /**
  *print_number-Prints n 
  *@n: Integer to print
