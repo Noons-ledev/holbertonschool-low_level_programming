@@ -33,18 +33,18 @@ _putchar((n % 10) + '0');
 else if (n < 0)
 {
 n = -n;
-if (n > -10)
+if (n < 10)
 {
 _putchar('-');
 _putchar(n + '0');
 }
-else if (n <= -10 && n > -100)
+else if (n >= 10 && n < 100)
 {
 _putchar('-');
 _putchar((n / 10) + '0');
 _putchar((n % 10) + '0');
 }
-else if (n < -100 && n > -1000)
+else if (n > 100 && n < 1000)
 {
 _putchar('-');
 _putchar((n/1000) + '0');
