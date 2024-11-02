@@ -12,9 +12,9 @@ char *toreplace = "4433007711";
 char *tochange = "aAeEoOtTlL";
 for (a = 0; s[a] != '\0'; a++)
 {
-for(b = 0; tochange[b] != '\0'; b++)
+for (b = 0; tochange[b] != '\0'; b++)
 {
-if ( tochange[b] == s[a])
+if (tochange[b] == s[a])
 {
 s[a] = toreplace[b];
 }
