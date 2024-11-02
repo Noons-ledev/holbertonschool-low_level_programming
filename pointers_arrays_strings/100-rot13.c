@@ -17,6 +17,7 @@ for (b = 0; classique[b] != '\0'; b++)
 if (classique[b] == t[a])
 {
 t[a] = realone[b];
+break;
 }
 }
 }
