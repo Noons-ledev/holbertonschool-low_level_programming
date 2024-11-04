@@ -14,7 +14,7 @@ int a, b, count = 0;
 int found;
 for (a = 0; s[a] != '\0'; a++)
 {
-found = 0;  
+found = 0;
 if (!match_found)
 break;
 for (b = 0; accept[b] != '\0'; b++)
