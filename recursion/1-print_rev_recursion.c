@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-*_puts_recursion- Prints a string in a recursive call
+*_print_rev_recursion- Prints a string in a recursive call
 *@s: string to print
 *Return: nothing (void)
 */
