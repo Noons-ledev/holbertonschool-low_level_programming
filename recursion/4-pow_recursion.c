@@ -2,9 +2,10 @@
 #include <stdio.h>
 #include "main.h"
 /**
-*_puts_recursion- Prints a string in a recursive call
-*@s: string to print
-*Return: nothing (void)
+*_pow_recursion- Return x power y
+*@x: Integer to return raised
+*@y: Power to apply to x
+*Return: x^y
 */
 int _pow_recursion(int x, int y)
 {
