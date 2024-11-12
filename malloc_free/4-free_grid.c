@@ -3,7 +3,7 @@
 /**
  *free_grid- frees a 2d grid
  *@grid: Grid to work on
- *@height: Value needed to loop 
+ *@height: Value needed to loop
  *Return: nothing void
  */
 
