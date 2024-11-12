@@ -15,7 +15,7 @@ while (str[a] != '\0')
 {
 a++;
 }
-array = (char *)malloc((a + 1) *sizeof(char));
+array = (char *)malloc((a + 1) * sizeof(char));
 if (array == NULL)
 return (NULL);
 for (b = 0; b < a; b++)
