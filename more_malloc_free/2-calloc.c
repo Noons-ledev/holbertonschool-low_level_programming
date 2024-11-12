@@ -8,14 +8,15 @@
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-int a;
+unsigned int a;
 unsigned int product = nmemb * size;
+char *array;
 if (size == 0 || nmemb == 0)
 return (NULL);
-void *array = (char *)malloc(product);
+array = malloc(product);
 if (array == NULL)
 return (NULL);
-for (a = 0; a < product)
+for (a = 0; a < product; a++)
 *(array + a) = 0;
 return (array);
 }
