@@ -14,8 +14,8 @@ int diff, a = 0;
 if (min > max)
 return (NULL);
 diff = max - min + 1;
-n = min ;
-array = (int *)malloc(diff * sizeof(int));
+n = min;
+array = (int *)malloc(diff *sizeof(int));
 if (array == NULL)
 return (NULL);
 for (a = 0; a < diff; a++)
