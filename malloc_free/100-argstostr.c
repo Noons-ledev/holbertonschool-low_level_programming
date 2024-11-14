@@ -48,5 +48,5 @@ d++;
 a++;
 }
 DoIt[d] = '\0';
-return(DoIt);
+return (DoIt);
 }
