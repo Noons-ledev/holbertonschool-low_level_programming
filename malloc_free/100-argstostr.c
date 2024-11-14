@@ -3,7 +3,7 @@
 #include "main.h"
 /**
 *string_length- Renvoie la longueur d'une chaine de caractères
-*@str Pointeur vers cette chaine de charactères
+*@str:Pointeur vers cette chaine de charactères
 *Return: Integer type
 */
 int string_length(char *str)
