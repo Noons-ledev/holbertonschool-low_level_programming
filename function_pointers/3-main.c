@@ -20,13 +20,15 @@ int main(int argc, char **argv)
 	}
 num1 = atoi(argv[1]);
 num2 = atoi(argv[3]);
-	if (get_op_func(argv[2]) == NULL)
+operator = get_op_func(argv[2]);
+printf("%d, %d\n", num1, num2);
+	if (operator == NULL)
 	{
 		printf("Error\n");
 		exit(99);
 	}
-operator = get_op_func(argv[2]);
-
+else
 printf("%d\n", operator(num1, num2));
+
 return (0);
 }
