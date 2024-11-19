@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "calc.h"
+#include "3-calc.h"
 
 /**
 *main-entry of program
@@ -21,7 +21,6 @@ int main(int argc, char **argv)
 num1 = atoi(argv[1]);
 num2 = atoi(argv[3]);
 operator = get_op_func(argv[2]);
-printf("%d, %d\n", num1, num2);
 	if (operator == NULL)
 	{
 		printf("Error\n");
