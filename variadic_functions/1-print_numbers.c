@@ -15,17 +15,13 @@ va_list abc;
 if (n == 0)
 return;
 va_start(abc, n);
-if (n != 1)
+for (;a < n; a++)
 {
-while (a != (n - 1))
-{
-if (separator != NULL)
+if (separator != NULL && a != (n - 1))
 printf("%d%s", va_arg(abc, int), separator);
 else
 printf("%d", va_arg(abc, int));
-a++;
 }
-}
-printf("%d\n", va_arg(abc, int));
+printf("\n");
 va_end(abc);
 }
