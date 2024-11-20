@@ -12,6 +12,8 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 {
 unsigned int a = 0;
 va_list abc;
+if (n == 0)
+return;
 va_start(abc, n);
 while (a != (n - 1))
 {
