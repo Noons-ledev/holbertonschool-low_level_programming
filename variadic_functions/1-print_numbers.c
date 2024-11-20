@@ -15,6 +15,8 @@ va_list abc;
 if (n == 0)
 return;
 va_start(abc, n);
+if (n != 1)
+{
 while (a != (n - 1))
 {
 if (separator != NULL)
@@ -22,6 +24,7 @@ printf("%d%s", va_arg(abc, int), separator);
 else
 printf("%d", va_arg(abc, int));
 a++;
+}
 }
 printf("%d\n", va_arg(abc, int));
 va_end(abc);
