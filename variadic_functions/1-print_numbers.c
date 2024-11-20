@@ -22,6 +22,7 @@ printf("%d%s", va_arg(abc, int), separator);
 else
 printf("%d", va_arg(abc, int));
 }
-printf("\n");
 va_end(abc);
+printf("\n");
 }
+
