@@ -65,10 +65,7 @@ while (to_find[j] != '\0')
 {
 if (format[i] == to_find[j])
 {
-if (espace)
-{
-printf(", ");
-}
+espace && printf(", ");
 fctn_call[j](arg);
 espace = 1;
 break;
