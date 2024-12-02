@@ -16,18 +16,18 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	dlistint_t *temp = *h;
 	unsigned int i = 0;
 	dlistint_t *new;
-	/**Si la liste n'existe pas*/
-	if (temp == NULL)
-	return (NULL);
-/**Si on demande de créer la liste via idx 0 */
+/**Si on demande de créer une node et une liste via idx 0 */
 	if (idx == 0)
 	{
 	new = malloc(sizeof(dlistint_t));
-	if (new == NULL)
-	return (NULL);
+		if (new == NULL)
+		return (NULL);
 	new->n = n;
 	new->prev = NULL;
-	new->next = NULL;
+	new->next = *h;
+	/**Si la liste existait deja et qu'on demande idx 0*/
+		if (*h != NULL)
+		(*h)->prev = new;
 	*h = new;
 	return (new);
 	}
@@ -42,9 +42,9 @@ new = malloc(sizeof(dlistint_t));
 	if (new == NULL)
 	return (NULL);
 new->n = n;
-if (temp != NULL)
-{
-new->prev = temp;
+	if (temp != NULL)
+	{
+	new->prev = temp;
 	if (temp->next != NULL)
 	temp->next->prev = new;
 new->next = temp->next;
