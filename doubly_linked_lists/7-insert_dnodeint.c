@@ -32,7 +32,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	return (new);
 	}
 	/**Si la liste et les index existent déjà*/
-	for (; i < idx ; i++)
+	for (; i < idx - 1 ; i++)
 	{
 		if (temp == NULL)
 		return (NULL);
