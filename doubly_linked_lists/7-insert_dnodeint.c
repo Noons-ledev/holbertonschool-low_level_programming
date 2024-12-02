@@ -49,6 +49,6 @@ new->n = n;
 		temp->next->prev = new;
 		new->next = temp->next;
 		temp->next = new;
-	
+
 return (new);
 }
