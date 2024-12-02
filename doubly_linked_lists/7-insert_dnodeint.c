@@ -42,13 +42,10 @@ new = malloc(sizeof(dlistint_t));
 	if (new == NULL)
 	return (NULL);
 new->n = n;
-	if (temp == NULL)
-	return (NULL);
-		new->prev = temp;
-		if (temp->next != NULL)
-		temp->next->prev = new;
-		new->next = temp->next;
-		temp->next = new;
-
+new->prev = temp;
+	if (temp->next != NULL)
+	temp->next->prev = new;
+new->next = temp->next;
+temp->next = new;
 return (new);
 }
