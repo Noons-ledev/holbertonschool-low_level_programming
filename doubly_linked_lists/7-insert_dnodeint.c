@@ -31,13 +31,16 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	*h = new;
 	return (new);
 	}
-	/**Si la liste et les index existent déjà*/
+	/**Si la liste et les index existent déjà, OU dernier idx*/
 	for (; i < idx - 1 ; i++)
 	{
 		if (temp == NULL)
 		return (NULL);
 		temp = temp->next;
 	}
+
+	if (temp == NULL)
+	return (NULL);
 new = malloc(sizeof(dlistint_t));
 	if (new == NULL)
 	return (NULL);
