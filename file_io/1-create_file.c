@@ -35,6 +35,7 @@ if (text_content == NULL)
 	text_content = "";
 written = write(fd, text_content, _strlen(text_content));
 if (written == -1)
+	close(fd);
 	return (-1);
 return (1);
 }
