@@ -4,8 +4,8 @@
 #include <unistd.h>
 #include <fcntl.h>
 /**
-*_strlen- Returns length of a string 
-*@s: String
+*_strlen- Returns length of a string
+*@str: String
 *Return: Size t type length
 */
 size_t _strlen(char *str)
@@ -20,7 +20,7 @@ return (i);
 *create_file- creates a file, if already existing, truncate it
 *@filename: Name of the file
 *@text_content: String to write in the file
-* Return : 1 on success, -1 on failure
+* Return: 1 on success, -1 on failure
 */
 int create_file(const char *filename, char *text_content)
 {
