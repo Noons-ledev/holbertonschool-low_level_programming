@@ -32,12 +32,9 @@ fd = open(filename, O_WRONLY | O_CREAT, S_IRUSR | S_IWUSR | O_TRUNC);
 if (fd == -1)
 	return (-1);
 if (text_content == NULL)
-	{
 	text_content = "";
-	empty = 1;
-	}
 written = write(fd, text_content, _strlen(text_content));
-if (written == -1 || empty)
+if (written == -1)
 	return (-1);
 return (1);
 }
