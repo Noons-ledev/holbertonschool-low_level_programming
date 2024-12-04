@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
+#include <fcntl.h>
 
 /**
 *read_textfile- Lis lettersx letters of a file
@@ -31,7 +32,7 @@ if (readbytes == -1)
 	close(fd);
 	return (0);
 	}
-written = write(STDOUT_FILENO, buffer, letters);
+written = write(STDOUT_FILENO, buffer, readbytes);
 if (written == -1 || written != readbytes)
 {
 	free(buffer);
@@ -42,4 +43,3 @@ free(buffer);
 close(fd);
 return (written);
 }
-
