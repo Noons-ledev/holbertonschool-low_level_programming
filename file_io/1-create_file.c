@@ -24,7 +24,7 @@ return (i);
 */
 int create_file(const char *filename, char *text_content)
 {
-int fd, empty = 0;
+int fd;
 ssize_t written;
 if (filename == NULL)
 	return (-1);
