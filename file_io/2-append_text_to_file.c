@@ -32,6 +32,8 @@ ssize_t written;
 fd = open(filename, O_RDWR | O_APPEND);
 	if (fd == -1)
 	return (-1);
+if (text_content == NULL)
+text_content = "";
 written = write(fd, text_content, _strlen(text_content));
 if (written == -1)
 	{
