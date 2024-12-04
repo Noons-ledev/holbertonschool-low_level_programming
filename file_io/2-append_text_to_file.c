@@ -29,11 +29,11 @@ ssize_t written;
 
 	if (filename == NULL)
 	return (-1);
-fd = open(filename, O_APPEND);
+fd = open(filename,O_RDWR | O_APPEND);
 	if (fd == -1)
 	return (-1);
-written = write(filename, text_content, _strlen(text_content));
-if (written != _strlen(text_content))
+written = write(fd, text_content, _strlen(text_content));
+if (written == -1)
 	{	
 	close(fd);
 	return (-1);
