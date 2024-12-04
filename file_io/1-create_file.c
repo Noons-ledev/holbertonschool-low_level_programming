@@ -39,6 +39,6 @@ if (written == -1)
 	close(fd);
 	return (-1);
 }
-close (fd);
+close(fd);
 return (1);
 }
