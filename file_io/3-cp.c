@@ -107,12 +107,6 @@ int fd_src, fd_dest;
 char buffer[1024];
 ssize_t read_bytes;
 
-if (strcmp(file_from, file_to) == 0)
-{
-dprintf(STDERR_FILENO, "Error: Source and destination files are the same\n");
-exit(100);
-}
-
 fd_src = open_filefrom(file_from);
 fd_dest = open_fileto(file_to, file_from);
 
