@@ -80,18 +80,18 @@ int _strcasecmp(const char *str1, const char *str2)
 {
 while (*str1 != '\0' && *str2 != '\0')
 {
-char c1 = tolower((unsigned char)*str1);
-char c2 = tolower((unsigned char)*str2);
+char c1 = (*str1 >= 'A' && *str1 <= 'Z') ? *str1 + 32 : *str1;
+char c2 = (*str2 >= 'A' && *str2 <= 'Z') ? *str2 + 32 : *str2;
 
 if (c1 != c2)
 return (c1 - c2);
-
 
 str1++;
 str2++;
 }
 return (*str1 - *str2);
 }
+
 
 
 /**
