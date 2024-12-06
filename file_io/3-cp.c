@@ -18,7 +18,7 @@ fd_src = open(file_from, O_RDONLY);
 if (fd_src == -1)
 {
 dprintf(STDOUT_FILENO, "Error: Can't read from file %s\n", file_from);
-exit(99);
+exit(98);
 }
 return (fd_src);
 }
