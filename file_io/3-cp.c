@@ -32,7 +32,7 @@ return (fd_src);
 int open_fileto(const char *file_to, const char *file_from)
 {
 int fd_dest;
-if (strcasecmp(file_from, file_to) == 0)
+if (_strcasecmp(file_from, file_to) == 0)
 {
 fd_dest = open(file_to, O_WRONLY | O_CREAT, 0664);
 }
