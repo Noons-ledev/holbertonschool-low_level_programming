@@ -110,7 +110,7 @@ ssize_t read_bytes;
 fd_src = open_filefrom(file_from);
 fd_dest = open_fileto(file_to, file_from);
 
-while (read_bytes = read(fd_src, buffer, bytes) > 0)
+while ((read_bytes = read(fd_src, buffer, bytes)) > 0)
 {
 write_t(file_to, fd_dest, buffer, read_bytes);
 }
