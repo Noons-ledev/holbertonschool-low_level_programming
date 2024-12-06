@@ -62,7 +62,7 @@ ssize_t written_bytes = write(fd_dest, buffer, read_bytes);
 if (written_bytes != read_bytes)
 {
 dprintf(STDERR_FILENO, "Error: Can't write to file %s\n", file_to);
-exit(99);
+exit(98);
 }
 return (1);
 }
