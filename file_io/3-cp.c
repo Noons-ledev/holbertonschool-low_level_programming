@@ -35,6 +35,11 @@ int fd_dest;
 if (_strcasecmp(file_from, file_to) == 0)
 {
 fd_dest = open(file_to, O_WRONLY | O_CREAT, 0664);
+if (fd_dest == -1)
+{
+dprintf(STDERR_FILENO, "Error: Can't write to %s\n", file_to);
+exit(99);
+}
 }
 else
 {
