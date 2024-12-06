@@ -6,7 +6,7 @@
 *@b: Binary number passed as a string as argument
 *Return: The length
 */
-int _strlen(const char* b)
+int _strlen(const char *b)
 {
 int i = 0;
 if (b == NULL)
@@ -26,13 +26,14 @@ return (i);
 unsigned int binary_to_uint(const char *b)
 {
 	int a, result = 0;
+
 	if (b == NULL)
 	return (0);
 for (a = 0; b[a] != '\0'; a++)
 {
 	if (b[a] == '1')
 	{
-		result = result + (2<<(_strlen(b) - a - 1));
+	result = result + (2 << (_strlen(b) - a - 1));
 	}
 	if (b[a] != '0' && b[a] != '1')
 	return (0);
