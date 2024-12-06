@@ -18,7 +18,7 @@ fd_src = open(file_from, O_RDONLY);
 if (fd_src == -1)
 {
 dprintf(STDOUT_FILENO, "Error: Can't read from file %s\n", file_from);
-exit(98);
+exit(99);
 }
 return (fd_src);
 }
@@ -42,7 +42,7 @@ fd_dest = open(file_to, O_WRONLY | O_CREAT | O_TRUNC, 0664);
 if (fd_dest == -1)
 {
 dprintf(STDERR_FILENO, "Error: Can't write to %s\n", file_to);
-exit(98);
+exit(99);
 }
 }
 return (fd_dest);
