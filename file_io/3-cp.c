@@ -41,7 +41,7 @@ else
 fd_dest = open(file_to, O_WRONLY | O_CREAT | O_TRUNC, 0664);
 if (fd_dest == -1)
 {
-dprintf(STDOUT_FILENO, "Error: Can't write to %s\n", file_to);
+dprintf(STDERR_FILENO, "Error: Can't write to %s\n", file_to);
 exit(99);
 }
 }
@@ -61,7 +61,7 @@ int write_t(const char *file_to, int fd_dest, char *buffer, ssize_t read_bytes)
 ssize_t written_bytes = write(fd_dest, buffer, read_bytes);
 if (written_bytes != read_bytes)
 {
-dprintf(STDOUT_FILENO, "Error: Can't write to file %s\n", file_to);
+dprintf(STDERR_FILENO, "Error: Can't write to file %s\n", file_to);
 exit(99);
 }
 return (1);
@@ -119,17 +119,17 @@ if (read_bytes < 0)
 {
 close(fd_dest);
 close(fd_src);
-dprintf(STDOUT_FILENO, "Error: Can't read from file %s\n", file_from);
+dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", file_from);
 exit(98);
 }
 if (close(fd_dest) == -1)
 {
-dprintf(STDOUT_FILENO, "Error: Can't close fd %d\n", fd_dest);
+dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd_dest);
 exit(100);
 }
 if (close(fd_src) == -1)
 {
-dprintf(STDOUT_FILENO, "Error: Can't close fd %d\n", fd_src);
+dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd_src);
 exit(100);
 }
 
@@ -149,7 +149,7 @@ size_t bytes = 1024;
 
 if (argc != 3)
 {
-dprintf(STDOUT_FILENO, "Usage: cp file_from file_to\n");
+dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
 exit(97);
 }
 read_and_copy(argv[1], argv[2], bytes);
