@@ -59,10 +59,10 @@ return (fd_dest);
 int write_t(const char *file_to, int fd_dest, char *buffer, ssize_t read_bytes)
 {
 ssize_t written_bytes = write(fd_dest, buffer, read_bytes);
-if (written_bytes != read_bytes)
+if (written_bytes == -1)
 {
 dprintf(STDERR_FILENO, "Error: Can't write to file %s\n", file_to);
-exit(99);
+exit(98);
 }
 return (1);
 }
@@ -109,15 +109,8 @@ ssize_t read_bytes;
 
 fd_src = open_filefrom(file_from);
 fd_dest = open_fileto(file_to, file_from);
-read_bytes = read(fd_src, buffer, bytes);
-if (read_bytes < 0)
-{
-    close(fd_dest);
-    close(fd_src);
-    dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", file_from);
-    exit(98);
-}
-while (read_bytes > 0)
+
+while (read_bytes = read(fd_src, buffer, bytes) > 0)
 {
 write_t(file_to, fd_dest, buffer, read_bytes);
 }
