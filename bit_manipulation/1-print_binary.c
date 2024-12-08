@@ -9,7 +9,7 @@
 void print_binary(unsigned long int n)
 {
 	int n_bits = sizeof(n) * 8;
-	int i;
+	int i, lead_zero = 1;
 
 	if (n == 0)
 	{
@@ -19,7 +19,10 @@ void print_binary(unsigned long int n)
 	for (i = n_bits - 1; i >= 0; i--)
 	{
 	if ((n >> i) & 1)
+	{
 	printf("1");
+	lead_zero = 0;
+	}
 	else
 	printf("0");
 	}
