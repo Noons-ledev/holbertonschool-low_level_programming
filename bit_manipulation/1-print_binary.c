@@ -23,8 +23,7 @@ void print_binary(unsigned long int n)
 	printf("1");
 	lead_zero = 0;
 	}
-	else if(!lead_zero)
+	else if (!lead_zero)
 	printf("0");
 	}
-	printf("\n");
 }
